@@ -1,16 +1,35 @@
-#input the number
+#Wap to check whether a given number is an Armstrong Number
+
+#input number
 num = int(input("Enter a number: "))
- 
-original = num
+
+#validate number
+if(num < 0):
+    exit("Number should be non-negative")
+
+#---------------------------------------------------
+
+#store original number
+temp = num
+
+#count number of digits
 digits = len(str(num))
-total = 0
 
-while num > 0:
-    digit = num % 10
-    total = total + (digit ** digits)
-    num = num // 10
+#store sum of powers
+sum_of_powers = 0
 
-if total == original:
-    print(original, "is an Armstrong Number")
+#---------------------------------------------------
+
+#extract digits and calculate sum of powers
+while(temp > 0):
+    digit = temp % 10
+    sum_of_powers += digit ** digits
+    temp //= 10
+
+#---------------------------------------------------
+
+#verify Armstrong Number
+if(sum_of_powers == num):
+    print("The number is an Armstrong Number")
 else:
-    print(original, "is not an Armstrong Number")
+    print("The number is not an Armstrong Number")
