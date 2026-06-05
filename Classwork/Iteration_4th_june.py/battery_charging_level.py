@@ -21,4 +21,4 @@ while(charging_level<=100):
 #---------------------------------------------------
 #displaying charging status
 
-print("Full Charge")
+print("Full Charge")    
