@@ -26,4 +26,4 @@ if(angle1 + angle2 + angle3 == 180):
 	else:
 		print("Above angles form Obtuse Angled triangle")
 else:
-	print("Above angles do not form any triangle") 
+	print("Above angles do not form any triangle")      
