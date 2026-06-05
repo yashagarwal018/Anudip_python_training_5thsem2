@@ -41,7 +41,7 @@ for i in range(2,n+1):
     if(lap_time>slowest_time):
         slowest_time=lap_time
         slowest_position=i
-
+   
 #---------------------------------------------------
 #calculating time difference
 
