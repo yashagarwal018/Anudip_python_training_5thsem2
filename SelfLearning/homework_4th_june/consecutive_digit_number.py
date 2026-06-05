@@ -8,7 +8,7 @@ prev_digit = num % 10
 
 # Remove the last digit
 num = num // 10
-
+    
 # Assume the number is consecutive
 is_consecutive = True
 
