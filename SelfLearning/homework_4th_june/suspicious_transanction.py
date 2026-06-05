@@ -50,5 +50,5 @@ while(True):
 #displaying results
 
 print("Transactions Above ₹50000 =",high_transactions)
-print("Transactions Below ₹1000 =",low_transactions)
+print("Transactions Below ₹1000 =",low_transactions)   
 print("Total Transaction Amount =",total_amount)
